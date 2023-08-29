@@ -1,6 +1,6 @@
 import pytest
-from src.Circle import Circle
-from src.Rectangle import Rectangle
+from src.circle import Circle
+from src.rectangle import Rectangle
 
 
 @pytest.mark.parametrize('radius, area, perimeter',
