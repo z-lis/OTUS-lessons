@@ -43,5 +43,5 @@ for user in users:
     result.append(user_data)
 
 # Сохранение данных в result.json
-with open('result.json', 'w', encoding='utf-8') as jsonfile:
-    json.dump(result, jsonfile, ensure_ascii=False, indent=4)
+with open('result.json', 'w') as jsonfile:
+    json.dump(result, jsonfile, indent=4)
